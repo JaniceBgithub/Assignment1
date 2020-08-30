@@ -16,6 +16,10 @@ The countifs function was used for the best fundraising goal.  The data was spli
 
 ### Analysis of Outcomes Based on Launch Date
 
+The following pivot table was created for this analysis:
+
+![goaltable](https://github.com/JaniceBgithub/Assignment1/blob/master/Goal_table.png)
+
 May, June, July and August are hte most sucessful times to launch a kickstarter campaign.  
 Decemember is the worst month to launch! 
 
