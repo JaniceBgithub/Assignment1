@@ -6,7 +6,7 @@ Louise’s play Fever came close to its fundraising goal in a short amount of ti
 
 ### Purpose
 
-The purpose of this project was to analyze kickstarter campgaigns for theaters and determine the launch month and fundraising goals that are more likely to succeed. 
+The purpose of this project was to analyze kickstarter campaigns for theaters and determine the launch month and fundraising goals that are more likely to succeed. 
 
 
 ## Analysis and Challenges
@@ -16,7 +16,7 @@ The countifs function was used for the best fundraising goal.  The data was spli
 
 ### Analysis of Outcomes Based on Launch Date
 
-The following table was created for this analysis:
+The following pivot table was created for this analysis:
 
 ![datetable](https://github.com/JaniceBgithub/Assignment1/blob/master/Pivot_date.png)
 
@@ -27,7 +27,7 @@ Decemember is the worst month to launch!
 
 
 ### Analysis of Outcomes Based on Goals
-The following pivot table was created for this analysis:
+The following table was created for this analysis (using the countif function)
 
 ![goaltable](https://github.com/JaniceBgithub/Assignment1/blob/master/Goal_table.png)
 
@@ -45,23 +45,23 @@ The countif function is a bit limiting and used the countifs for better function
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-May, June, July and August are hte most sucessful times to launch a kickstarter campaign.  
-Decemember is the worst month to launch! 
+- May, June, July and August are hte most sucessful times to launch a kickstarter campaign.  
+- Decemember is the worst month to launch! 
 
 
-- What can you conclude about the Outcomes based on Goals?
+What can you conclude about the Outcomes based on Goals?
 
-The lower the fundraising goal, the more successful it was. Goals of <10,000 were 60 to 70% successful.  Greater than 50,000 was particularly bad with only a 16% chance of success.  There was also a high portion of cancelled campaigns at the >50,000 level at 25%.  Cancelled campaigns were positively linked with higher goal amounts. 
+- The lower the fundraising goal, the more successful it was. Goals of <10,000 were 60 to 70% successful.  Greater than 50,000 was particularly bad with only a 16% chance of success.  There was also a high portion of cancelled campaigns at the >50,000 level at 25%.  Cancelled campaigns were positively linked with higher goal amounts. 
 
-- What are some limitations of this dataset?
+What are some limitations of this dataset?
 
-- What are some other possible tables and/or graphs that we could create?
+- This analysis did not look at currency.  A more complete analysis would have converted currencies all into one currency. 
 
-This analyis included quite a few entries for theatre "spaces" which is inherently different than a play or musical.  The theater "space" data could have been removed for a better analysis. 
+What are some other possible tables and/or graphs that we could create?
 
-This analysis did not look at currency.  A more complete analysis would have converted currencies all into one currency. 
+- This analyis included quite a few entries for theatre "spaces" which is inherently different than a play or musical.  The theater "space" data could have been removed for a better analysis. 
 
-It would have also been good to look at average donation and how that was linked with success.  ie - it is more useful to find a few bigger donors, or lots of smaller donors.
+- It would have also been good to look at average donation and how that was linked with success.  ie - it is more useful to find a few bigger donors, or lots of smaller donors.
 
