@@ -19,8 +19,13 @@ The countifs function was used for the best fundraising goal.  The data was spli
 May, June, July and August are hte most sucessful times to launch a kickstarter campaign.  
 Decemember is the worst month to launch! 
 
+![Outcomes_based_Launch_date](https://github.com/JaniceBgithub/Assignment1/blob/master/Theatre_Outcomes_vs_Launch.png)
+
+
 ### Analysis of Outcomes Based on Goals
 The lower the fundraising goal, the more successful it was. Goals of <10,000 were 60 to 70% successful.  Greater than 50,000 was particularly bad with only a 16% chance of success.  There was also a high portion of cancelled campaigns at the >50,000 level at 25%.  Cancelled campaigns were positively linked with higher goal amounts. 
+
+
 
 ### Challenges and Difficulties Encountered
 
